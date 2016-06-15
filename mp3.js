@@ -1,5 +1,3 @@
- <div id="disqus_thread"></div>
-
 <script>
 (function() {  
 var d = document, s = d.createElement('script');
