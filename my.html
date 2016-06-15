@@ -1,3 +1,87 @@
 <html>
-<p>hello</p>
-</html>
+ <head>
+     <title>صوتيات</title>
+ 
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	
+
+ 	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-red.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel ="https://rawgit.com/radzad/mycss1/gh-pages/my.html">
+<body class="w3-container">
+
+ 
+<div class="w3-accordion w3-card-4">
+  <button onclick="myFunction('Demo1')" class="w3-btn-block w3-left-align">
+    <img src="https://nccwsc.usgs.gov/sites/all/themes/usgs/images/menu.png"height="25" width="25"/><br><br>
+  </button>
+  <div id="Demo1" class="w3-accordion-content">
+    <ul class="w3-ul">
+      <a href="formmp3.php">اظافة صوتيات</a>
+    
+  <a href ="https://rawgit.com/radzad/mycss1/gh-pages/my.html">html</a>
+
+    </ul>  
+  </div>
+  
+</div>
+       <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+	   <script src="https://rawgit.com/radzad/mycss1/master/myy.js">k</script>
+
+<script>
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script><br>
+<body>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body class="w3-container">
+
+
+
+<style>
+h4{	color:#339988;}
+	a{color:#000;}
+</style>
+</body> 
+  
+  </head> </html>
+ 
+ <?php $localhost 	= 'mysql.hostinger.ae';$user = 'u861640713_mp3';$password 	= '14121410';$db = 'u861640713_mymp3';$connect = mysqli_connect($localhost, $user, $password);$select = mysqli_select_db($connect, $db);  
+// ORDER BY id DESC هذا الامر يجلب لي اخر موضوع دخل قاعده البيانات
+$slo = mysqli_query($connect, "SELECT  * FROM   test ORDER BY id DESC");
+while ($row = mysqli_fetch_array($slo)){echo'<bdo dir ="rtl">'.'<div class="w3-card-4" style="width:100%">'.' '.' '.' <br> '.'<img src="http://icons.iconarchive.com/icons/icons8/windows-8/24/Messaging-Topic-icon.png">'.''.'<h4>'.$row['name2'].'</h4>'.'<div class="w3-container">'.'<br/><div class="shahd">';
+ echo  ' '.' '.' '.$row['name1'] .'</h4>';
+echo  '<h4>'.'<img src="http://icons.iconarchive.com/icons/icons8/ios7/24/Users-User-Female-icon.png">'.'<h4>'.$row['name'].'</h4>'.'<h4>اظافه تعليق</h4>'.'<br>'.'<h4><b></b></h4></div></div>';
+ }
+ 
+ 
+ ?>
+
+
+
+
+
+
+
+
+
+  
+ 
+
