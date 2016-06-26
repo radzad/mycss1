@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://rawgit.com/radzad/mycss1/master/w3.css">
-<include virtual="mp3app.esy.es/mymp3.php">
-
+ 
     <link rel="stylesheet" href="https://rawgit.com/radzad/mycss1/master/bootstrap.min.css">
 	
 
@@ -20,18 +19,9 @@
 <link rel ="stylesheet" href="https://rawgit.com/radzad/mycss1/gh-pages/my.html">
 <body class="w3-container">
  
-<div class="w3-accordion w3-card-4">
-  <button onclick="myFunction('Demo1')" class="w3-btn-block w3-left-align">
-    <img src="https://nccwsc.usgs.gov/sites/all/themes/usgs/images/menu.png"height="25" width="25"/><br><br>
-  </button>
-  <div id="Demo1" class="w3-accordion-content">
-    <ul class="w3-ul">
-      <a href="formmp3.php">اظافة صوتيات</a>
- 
- 
-    </ul>  
-  </div>
-  
+<div class="container">
+    <div class="header"></div>
+    
 </div>
        <script src="https://rawgit.com/radzad/mycss1/master/html5shiv.min.js"></script>
       <script src="https://rawgit.com/radzad/mycss1/master/respond.min.js"></script>
@@ -53,6 +43,14 @@ function myFunction(id) {
 
  
 <style>
+.container .header {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+
+    height: 200px;
+}
 h4{	color:#339988;}
 	a{color:#000;}
 </style>
